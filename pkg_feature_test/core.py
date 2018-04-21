@@ -4,5 +4,5 @@ class io_base():
   def call(self,message):
     pass
 class io(io_base):
-  def __init__(self):
+  def __init__(self,version):
     print('i [pkg_feature_test] Packages Feature Working')
