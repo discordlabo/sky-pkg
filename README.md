@@ -5,4 +5,4 @@ Sky Packages repository
 This repo is for sky packages and tobe on this list, the package needs to be **verified**.
 
 ## How to Install Packages
-Just simply type :install/<pkg-name> to Sky Bot.
+Just simply type :add/<pkg-name> to Sky Bot.
