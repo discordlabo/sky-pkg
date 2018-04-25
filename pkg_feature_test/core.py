@@ -1,5 +1,5 @@
 class io_base():
-  def __init__(self,version):
+  def __init__(self,version,bot=None):
     pass
   def call(self,message):
     pass
