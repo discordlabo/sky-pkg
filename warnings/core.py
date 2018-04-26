@@ -6,16 +6,16 @@ class io():
 
   def call(self,message):
     if message.content.startswith(':warn/'):
-      yield from bot.send_message(message.channel,':warning: Warning Feature is not available now. :pensive:')
+      yield from self.bot.send_message(message.channel,':warning: Warning Feature is not available now. :pensive:')
 
     elif message.content.startswith(':ban/'):
-      yield from bot.send_message(message.channel,':warning: Ban Feature is not available now. :pensive:')
+      yield from self.bot.send_message(message.channel,':warning: Ban Feature is not available now. :pensive:')
 
     elif message.content.startswith(':kick/'):
-      yield from bot.send_message(message.channel,':warning: Kick Feature is not available now. :pensive:')
+      yield from self.bot.send_message(message.channel,':warning: Kick Feature is not available now. :pensive:')
 
     elif message.content.startswith(':reset/'):
-      yield from bot.send_message(message.channel,':warning: Reset Feature is not available now. :pensive:')
+      yield from self.bot.send_message(message.channel,':warning: Reset Feature is not available now. :pensive:')
 
   def name(self):
     reurn self.name
